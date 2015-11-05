@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.2.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Provides 16 stemmer algorithms generated from Snowball algorithms
 
 License:        BSD
@@ -126,5 +126,8 @@ rm -rf %{pypi_name}.egg-info
 
 
 %changelog
+* Thu Nov 5 2015 Julien Enselme <jujens@jujens.eu> - 1.2.0-2
+- Rebuilt for python 3.5
+
 * Mon Aug 24 2015 Julien Enselme <jujens@jujens.eu> - 1.2.0-1
 - Initial package
